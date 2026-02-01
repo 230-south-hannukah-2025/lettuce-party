@@ -1,0 +1,6 @@
+BEN
+
+To edit the image that displays at the top - the background (usually gizmo):
+go to ./css/styles_min
+Crtl+F to find "hero"
+Change the jpg image there
