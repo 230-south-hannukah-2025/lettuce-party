@@ -184,23 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Purim Party :)",
+            title: "Lettuce Party :)",
 
             // Event start date
-            start: new Date('Mar 6, 2026 20:00'),
+            start: new Date('Aug 15, 2026 18:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Mar 7, 2026 2:00'),
+            end: new Date('Aug 15, 2026 23:00'),
 
             // Event Address
-            address: '230 South St, Jamaica Plain, MA 02130',
+            address: '1029 Broadway, Somerville, MA 02144',
 
             // Event Description
-            description: "We are in apartment 2. PLEASE wear a costume. Let us know if you have any questions!"
+            description: "Come through the back - there's a gate on the left side of the house YIPPIE!!!"
         }
     });
 
@@ -222,7 +222,8 @@ $(document).ready(function () {
             
             // old url from the 2025 hannukah website 
             //https://script.google.com/macros/s/AKfycbwZYTnLjP1q-qoRbjlQLaQWqtRINNN-ceoBCf8wullGzLiKyNApnRCZWi0nqauTvgOYGA/exec
-            $.post('https://script.google.com/macros/s/AKfycbxoeNu-ApkfOtsf8L0rHCsaBv0e4fqJZs6h0forqY9PfnyllFLPstwUZgfnvF4AmZ8O/exec', data)
+            //'https://script.google.com/macros/s/AKfycbxoeNu-ApkfOtsf8L0rHCsaBv0e4fqJZs6h0forqY9PfnyllFLPstwUZgfnvF4AmZ8O/exec' #  for purim party
+            $.post('https://script.google.com/macros/s/AKfycbz0qtwCsdQIM_aBHoLoOm7GMkrmR7XDoBrh7DV51eR7YFs4I8Lv5GAMhygS9wWKJCId5w/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
