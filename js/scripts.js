@@ -223,7 +223,7 @@ $(document).ready(function () {
             // old url from the 2025 hannukah website 
             //https://script.google.com/macros/s/AKfycbwZYTnLjP1q-qoRbjlQLaQWqtRINNN-ceoBCf8wullGzLiKyNApnRCZWi0nqauTvgOYGA/exec
             //'https://script.google.com/macros/s/AKfycbxoeNu-ApkfOtsf8L0rHCsaBv0e4fqJZs6h0forqY9PfnyllFLPstwUZgfnvF4AmZ8O/exec' #  for purim party
-            $.post('https://script.google.com/macros/s/AKfycbz0qtwCsdQIM_aBHoLoOm7GMkrmR7XDoBrh7DV51eR7YFs4I8Lv5GAMhygS9wWKJCId5w/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzWj-uU-CGCIgCBioz4w-AYFD1RzutEF1GRTvWbt3J-0vnPbBsdJTq2WO4ua9sekNwV/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
